@@ -1,11 +1,10 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node ./dist/index.ts",
-    "dev":"nodemon ./src/index.ts",
+    "dev": "nodemon ./src/index.ts",
     "build": "tsc -p ."
   },
   "author": "",
@@ -23,5 +22,15 @@
     "ts-node": "^10.7.0",
     "typeorm": "^0.3.6",
     "typescript": "^4.6.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DHIRAN123/graphql-api.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/DHIRAN123/graphql-api/issues"
+  },
+  "homepage": "https://github.com/DHIRAN123/graphql-api#readme",
+  "description": ""
 }
